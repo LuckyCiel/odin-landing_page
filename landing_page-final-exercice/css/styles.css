@@ -1,11 +1,13 @@
-body {
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .hero {
-    background-color: #1f2937;
-    padding: 0 4rem 0 4rem;
+    background-color: hsl(215, 28%, 17%);
+    padding: 4px 8rem 20px 8rem; 
 }
 
 header {
@@ -24,25 +26,55 @@ header {
 .nav-header ul li a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Roboto;
 }
 
+.hero-container {
+    padding: 60px 0 60px 0;
+}
 
+.titletexthero {
+    display: flex;
+    flex-direction: column;
+}
 
+.heroimg {
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+}
 
+.titletexthero p{
+    font-family: Roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 4px;
+    padding-bottom: 10px;
+}
 
+.titletexthero h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    line-height: 50px;
+    padding-bottom: 10px;
 
+}
 
+.herocontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
 
+}
 
-
-
-
-
-
-
-
-.heroplaceholder img {
-width: 20%;
+.titletexthero button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 20px 6px 20px
 }
