@@ -17,6 +17,8 @@ header {
     justify-content: space-between;
 }
 
+/* Nav Menu */
+
 .nav-header ul {
     display: flex;
     list-style-type: none;
@@ -27,34 +29,33 @@ header {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Main Hero Container */
 
 .hero-container {
     padding: 60px 0 60px 0;
 }
+
+.herocontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left Hero Container */
 
 .titletexthero {
     display: flex;
     flex-direction: column;
 }
 
-.heroimg {
-    max-width: 20rem;
-    display: flex;
-    align-items: center;
-}
-
-.titletexthero p{
-    font-family: Roboto;
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-bottom: 4px;
-    padding-bottom: 10px;
-}
+/* Title Hero */
 
 .titletexthero h1 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -63,13 +64,17 @@ header {
 
 }
 
-.herocontent {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
+/* SubText Hero */
 
+.titletexthero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 4px;
+    padding-bottom: 10px;
 }
+
+/* Button Hero */
 
 .titletexthero button {
     background-color: #3882f6;
@@ -78,3 +83,13 @@ header {
     border: none;
     padding: 6px 20px 6px 20px
 }
+
+/* Image Hero */
+
+.heroimg {
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+
