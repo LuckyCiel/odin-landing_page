@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
     background-color: hsl(215, 28%, 17%);
-    padding: 4px 8rem 20px 8rem; 
 }
 
 header {
@@ -15,6 +15,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* Nav Menu */
@@ -22,20 +24,21 @@ header {
 .nav-header ul {
     display: flex;
     list-style-type: none;
-    gap: 16px
+    gap: 16px;
 }
 
 .nav-header ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Main Hero Container */
 
 .hero-container {
     padding: 60px 0 60px 0;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .herocontent {
@@ -57,7 +60,7 @@ header {
 .titletexthero h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #f9faf8;
     line-height: 50px;
     padding-bottom: 10px;
@@ -67,7 +70,6 @@ header {
 /* SubText Hero */
 
 .titletexthero p{
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 4px;
@@ -95,7 +97,9 @@ header {
 /* Flexline section */
 
 .flexline {
-    margin: 40px 8rem 80px 8rem;
+    max-width: 1200px;
+    margin: auto ;
+    padding: 3rem 0 6rem 0;
 }
 
 
@@ -103,10 +107,9 @@ header {
 
 .flexline-title h3  {
     font-size: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-weight:900;
+    font-weight: 900;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 
 }
 
@@ -115,8 +118,7 @@ header {
 .flexline-container {
     display: flex;
     height: fit-content;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
     gap: 40px;
 
 }
@@ -150,22 +152,68 @@ header {
     text-align: center;
     margin: 0;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 .quote {
-    padding: 8rem;
     background-color: #e5e7eb;
 }
 
+.quote-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .quote-text {
-    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     color: #1f2937;
 }
 
 .author-text{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     text-align: right;
+}
+
+.cta {
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 6rem auto 6rem auto;
+}
+
+.cta-textgroup {
+    color: white;
+}
+
+.cta-textgroup h3{
+    font-weight: bold;
+}
+
+.cta-button button{
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    padding: 6px 20px 6px 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    font-weight: 200;
 }
